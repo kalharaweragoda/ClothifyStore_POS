@@ -1,6 +1,6 @@
 package config;
 
-import entity.CustomerEntity;
+import entity.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
