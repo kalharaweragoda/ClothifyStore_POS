@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserDashboardWindowController">
+   <children>
+      <Rectangle fill="#0e4c92" height="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <Label layoutX="18.0" layoutY="14.0" text="User Dashboard" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLoadAddProductsForm" layoutX="6.0" layoutY="50.0" mnemonicParsing="false" onAction="#btnLoadAddProductsFormOnAction" style="-fx-background-color: #061E3A;" text="Add Products Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLoadModifyProductsForm" layoutX="10.0" layoutY="93.0" mnemonicParsing="false" onAction="#btnLoadModifyProductsFormOnAction" style="-fx-background-color: #061E3A;" text="Modify Prod Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="ancPaneLoadContainer" layoutX="200.0" prefHeight="400.0" prefWidth="601.0" />
+      <Button fx:id="btnLoadSupplierForm" layoutX="27.0" layoutY="136.0" mnemonicParsing="false" onAction="#btnLoadSupplierFormOnAction" style="-fx-background-color: #061E3A;" text="Supplier Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLoadOrderForm" layoutX="39.0" layoutY="308.0" mnemonicParsing="false" onAction="#btnLoadOrderFormOnAction" style="-fx-background-color: #061E3A;" text="Order Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLoadOrderAndReturns" layoutX="13.0" layoutY="351.0" mnemonicParsing="false" onAction="#btnLoadOrderAndReturnsOnAction" style="-fx-background-color: #061E3A;" text="Orders &amp; Returns" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLoadViewSupplierProducts" layoutX="6.0" layoutY="222.0" mnemonicParsing="false" onAction="#btnLoadViewSupplierProductsOnAction" prefHeight="39.0" prefWidth="188.0" style="-fx-background-color: #061E3A;" text="View Supplier Prod" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLoadCustomerForm" layoutX="7.0" layoutY="265.0" mnemonicParsing="false" onAction="#btnLoadCustomerFormOnAction" prefHeight="39.0" prefWidth="188.0" style="-fx-background-color: #061E3A;" text="Customer Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLoadModifySupplierForm" layoutX="19.0" layoutY="179.0" mnemonicParsing="false" onAction="#btnLoadModifySupplierFormOnAction" style="-fx-background-color: #061E3A;" text="Modify Supplier" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
