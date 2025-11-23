@@ -12,8 +12,8 @@ public class DBConnection {
     private Connection connection;
 
     private DBConnection() throws SQLException {
-        String connectionUrl = "jdbc:mysql://localhost:3306/databasename";
-        String user = "username";
+        String connectionUrl = "jdbc:mysql://localhost:3306/clothifystore";
+        String user = "root";
         String password = "Abc213s";
         connection = DriverManager.getConnection(connectionUrl,user,password);
     }

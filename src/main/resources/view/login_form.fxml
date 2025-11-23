@@ -11,7 +11,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.supplier.LoginFormController">
    <children>
       <Rectangle arcWidth="5.0" fill="#0e4c92" height="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
       <Label layoutX="25.0" layoutY="51.0" text="ClothifyStore" textFill="WHITE">
@@ -24,7 +24,7 @@
             <Image url="@../images/cover_image.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="9.0" layoutY="304.0" text="Mr.Sheshan Thilakshana" textFill="WHITE">
+      <Label layoutX="9.0" layoutY="304.0" text="Mr.Kalhara Weragoda" textFill="WHITE">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
