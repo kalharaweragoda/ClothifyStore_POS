@@ -16,11 +16,13 @@ public class Starter extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
+
         Injector injector = Guice.createInjector(new AppModule());
 
         Navigator.setStage(stage);
         Navigator.setInjector(injector);
 
+        //Navigator.navigateTo("user_dashboard_window.fxml");
         Navigator.navigateTo("login_form.fxml");
     }
 }

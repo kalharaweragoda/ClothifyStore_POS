@@ -24,7 +24,7 @@
             <Image url="@../images/cover_image.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="9.0" layoutY="304.0" text="Mr.Sheshan Thilakshana" textFill="WHITE">
+      <Label layoutX="9.0" layoutY="304.0" text="Mr.Kalhara Weragoda" textFill="WHITE">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>

@@ -48,24 +48,75 @@ public class LoginFormController {
         } else {
             try {
                 Employee employee = employeeService.search(emailText);
+
                 if (employee == null) {
                     new Alert(Alert.AlertType.ERROR, "employee not found, Check email and try again.").show();
                 } else {
-                    BasicTextEncryptor basicTextEncryptor = new BasicTextEncryptor();
-                    basicTextEncryptor.setPassword(employee.getEmail());
-                    String decrypted = basicTextEncryptor.decrypt(employee.getPassword());
-                    if (decrypted.equals(passwordText)) {
+
+                    // Compare raw password directly
+                    if (employee.getPassword().equals(passwordText)) {
+
                         Stage stage = new Stage();
-                        stage.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/view/user_dashboard_window.fxml")))));
+                        stage.setScene(new Scene(FXMLLoader.load(
+                                Objects.requireNonNull(getClass().getResource("/view/user_dashboard_window.fxml"))
+                        )));
                         stage.show();
+
                     } else {
-                        new Alert(Alert.AlertType.ERROR, "invalid credentials").show();
+                        new Alert(Alert.AlertType.ERROR, "Invalid credentials").show();
                     }
                 }
 
-            } catch (SQLException | IOException e) {
+            } catch (Exception e) {
                 new Alert(Alert.AlertType.ERROR, e.getMessage()).show();
             }
+
+//            try {
+//                Employee employee = employeeService.search(emailText);
+//                if (employee == null) {
+//                    new Alert(Alert.AlertType.ERROR, "Employee not found").show();
+//                    return;
+//                }
+//
+//                BasicTextEncryptor encryptor = new BasicTextEncryptor();
+//                encryptor.setPassword("MY_SECRET_KEY_123"); // <<< FIXED
+//
+//                String decrypted = encryptor.decrypt(employee.getPassword());
+//
+//                if (decrypted.equals(passwordText)) {
+//                    Stage stage = new Stage();
+//                    stage.setScene(new Scene(FXMLLoader.load(
+//                            Objects.requireNonNull(getClass().getResource("/view/user_dashboard_window.fxml"))
+//                    )));
+//                    stage.show();
+//                } else {
+//                    new Alert(Alert.AlertType.ERROR, "Invalid credentials").show();
+//                }
+//
+//            } catch (Exception e) {
+//                new Alert(Alert.AlertType.ERROR, e.getMessage()).show();
+//            }
+
+//            try {
+//                Employee employee = employeeService.search(emailText);
+//                if (employee == null) {
+//                    new Alert(Alert.AlertType.ERROR, "employee not found, Check email and try again.").show();
+//                } else {
+//                    BasicTextEncryptor basicTextEncryptor = new BasicTextEncryptor();
+//                    basicTextEncryptor.setPassword(employee.getEmail());
+//                    String decrypted = basicTextEncryptor.decrypt(employee.getPassword());
+//                    if (decrypted.equals(passwordText)) {
+//                        Stage stage = new Stage();
+//                        stage.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/view/user_dashboard_window.fxml")))));
+//                        stage.show();
+//                    } else {
+//                        new Alert(Alert.AlertType.ERROR, "invalid credentials").show();
+//                    }
+//                }
+//
+//            } catch (SQLException | IOException e) {
+//                new Alert(Alert.AlertType.ERROR, e.getMessage()).show();
+//            }
         }
     }
 

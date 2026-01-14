@@ -19,23 +19,23 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnLoadModifyProductsForm" layoutX="10.0" layoutY="93.0" mnemonicParsing="false" onAction="#btnLoadModifyProductsFormOnAction" style="-fx-background-color: #061E3A;" text="Modify Prod Form" textFill="WHITE">
+      <Button fx:id="btnLoadModifyProductsForm" layoutX="10.0" layoutY="93.0" mnemonicParsing="false" onAction="#btnLoadModifyProductsFormOnAction" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: #061E3A;" text="Modify Prod Form" textFill="WHITE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
       <AnchorPane fx:id="ancPaneLoadContainer" layoutX="200.0" prefHeight="400.0" prefWidth="601.0" />
-      <Button fx:id="btnLoadSupplierForm" layoutX="27.0" layoutY="136.0" mnemonicParsing="false" onAction="#btnLoadSupplierFormOnAction" style="-fx-background-color: #061E3A;" text="Supplier Form" textFill="WHITE">
+      <Button fx:id="btnLoadSupplierForm" layoutX="10.0" layoutY="136.0" mnemonicParsing="false" onAction="#btnLoadSupplierFormOnAction" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: #061E3A;" text="Supplier Form" textFill="WHITE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnLoadOrderForm" layoutX="39.0" layoutY="308.0" mnemonicParsing="false" onAction="#btnLoadOrderFormOnAction" style="-fx-background-color: #061E3A;" text="Order Form" textFill="WHITE">
+      <Button fx:id="btnLoadOrderForm" layoutX="10.0" layoutY="308.0" mnemonicParsing="false" onAction="#btnLoadOrderFormOnAction" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: #061E3A;" text="Order Form" textFill="WHITE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnLoadOrderAndReturns" layoutX="13.0" layoutY="351.0" mnemonicParsing="false" onAction="#btnLoadOrderAndReturnsOnAction" style="-fx-background-color: #061E3A;" text="Orders &amp; Returns" textFill="WHITE">
+      <Button fx:id="btnLoadOrderAndReturns" layoutX="13.0" layoutY="351.0" mnemonicParsing="false" onAction="#btnLoadOrderAndReturnsOnAction" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: #061E3A;" text="Orders &amp; Returns" textFill="WHITE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -50,7 +50,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnLoadModifySupplierForm" layoutX="19.0" layoutY="179.0" mnemonicParsing="false" onAction="#btnLoadModifySupplierFormOnAction" style="-fx-background-color: #061E3A;" text="Modify Supplier" textFill="WHITE">
+      <Button fx:id="btnLoadModifySupplierForm" layoutX="9.0" layoutY="179.0" mnemonicParsing="false" onAction="#btnLoadModifySupplierFormOnAction" prefHeight="39.0" prefWidth="182.0" style="-fx-background-color: #061E3A;" text="Modify Supplier" textFill="WHITE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

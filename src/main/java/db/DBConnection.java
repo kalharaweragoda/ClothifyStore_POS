@@ -12,7 +12,7 @@ public class DBConnection {
     private Connection connection;
 
     private DBConnection() throws SQLException {
-        String connectionUrl = "jdbc:mysql://localhost:3306/clothifystore";
+        String connectionUrl = "jdbc:mysql://localhost:3306/clothstore";
         String user = "root";
         String password = "Abc213s";
         connection = DriverManager.getConnection(connectionUrl,user,password);
@@ -25,3 +25,4 @@ public class DBConnection {
         return instance;
     }
 }
+
