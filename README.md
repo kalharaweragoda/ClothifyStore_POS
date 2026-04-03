@@ -41,7 +41,15 @@ To ensure high quality, scalability, and maintainability, the following patterns
 
 ---
 
-## ⚙️ Setup & Installation
+## ⚙️ Getting Started
+
+## 📋 Prerequisites
+
+To run this application smoothly, ensure the following software is installed on your local machine:
+
+* **[☕] JDK 11+** – Java Development Kit required to compile and run the project.
+* **[🗄️] MySQL Server** – Required for managing the application's database.
+* **[🔨] Maven** – For handling project dependencies and build automation (usually bundled with modern IDEs).
 
 Follow these steps to get the project running on your local machine:
 
@@ -51,8 +59,7 @@ Follow these steps to get the project running on your local machine:
     ```
 2.  **Database Configuration:**
     Update the database name, username, and password in the configuration files located in `src/main/resources` to match your local MySQL setup.
-3.  **Build & Run:**
-    Open the project in your preferred IDE (IntelliJ IDEA or Eclipse), let Maven download the dependencies, and run the `AppInitializer.java` file.
+
 
 ---
 
