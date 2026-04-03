@@ -43,13 +43,15 @@ To ensure high quality, scalability, and maintainability, the following patterns
 
 ## ⚙️ Getting Started
 
-## 📋 Prerequisites
+## Prerequisites
 
 To run this application smoothly, ensure the following software is installed on your local machine:
 
 * **[☕] JDK 11+** – Java Development Kit required to compile and run the project.
 * **[🗄️] MySQL Server** – Required for managing the application's database.
 * **[🔨] Maven** – For handling project dependencies and build automation (usually bundled with modern IDEs).
+
+## Installation
 
 Follow these steps to get the project running on your local machine:
 
