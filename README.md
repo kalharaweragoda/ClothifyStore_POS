@@ -45,15 +45,11 @@ Follow these steps to get the project running on your local machine:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/SanVidurath/ClothifyStoreLA.git](https://github.com/SanVidurath/ClothifyStoreLA.git)
+    git clone https://github.com/kalharaweragoda/ClothifyStore_POS.git
     ```
-2.  **Navigate to Directory:**
-    ```bash
-    cd ClothifyStoreLA
-    ```
-3.  **Database Configuration:**
+2.  **Database Configuration:**
     Update the database name, username, and password in the configuration files located in `src/main/resources` to match your local MySQL setup.
-4.  **Build & Run:**
+3.  **Build & Run:**
     Open the project in your preferred IDE (IntelliJ IDEA or Eclipse), let Maven download the dependencies, and run the `AppInitializer.java` file.
 
 ---
@@ -64,5 +60,5 @@ Contributions are welcome! If you encounter any bugs or have feature suggestions
 ---
 
 ## 👤 Developer
-* **Name:** Sandeepa Maddumage (SanVidurath)
-* **GitHub:** [@SanVidurath](https://github.com/SanVidurath)
+* **Name:** Sandeepa Maddumage (kalharaweragoda)
+
