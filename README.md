@@ -15,12 +15,14 @@ To ensure high quality, scalability, and maintainability, the following patterns
 
 ---
 
-## ✨ Main Features
-* 🎨 **Modern UI:** Intuitive graphical user interface built with JavaFX and JFoenix components.
-* 📦 **Inventory Management:** Comprehensive tracking of stock levels, categories, and fashion items.
-* 📑 **Professional Reporting:** Generate high-quality bills and sales reports using JasperReports.
-* 🔐 **Secure Data:** Password encryption and secure credential management using Jasypt.
-* 📊 **Export Capabilities:** Support for exporting data to Excel formats via Apache POI.
+### 🌟 Features & Integrations
+
+* **[✓] User-Friendly UI** – Modern, responsive graphical interface built using **JFoenix** and **JavaFX**.
+* **[✓] Maven Build Tool** – Comprehensive dependency management and automated project builds.
+* **[✓] Hibernate ORM** – Robust database interactions and object-relational mapping for data persistence.
+* **[✓] Lombok Integration** – Significantly reduces boilerplate code (Getters, Setters, Constructors) for cleaner entity classes.
+* **[✓] Data Encryption** – Secure password and credential management using the **Jasypt** library.
+* **[✓] Transaction Management** – Ensures data integrity by handling **JDBC Transactions** effectively across service layers.
 
 ---
 
