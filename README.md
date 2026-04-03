@@ -59,6 +59,3 @@ Contributions are welcome! If you encounter any bugs or have feature suggestions
 
 ---
 
-## 👤 Developer
-* **Name:** Sandeepa Maddumage (kalharaweragoda)
-
